@@ -27,7 +27,7 @@ axs[1].set_xlim(0,0.5)
 axs[2].plot(t, z)
 axs[2].plot(te, ze, color="green", marker='o', linestyle="")
 axs[2].set_xlim(0,0.5)
-
+plt.savefig("ex3.png")
+plt.savefig('ex3.pdf', format='pdf')
 plt.show()
-plt.savefig("ex3.png", format="png")
-plt.savefig("ex3.pdf", format="pdf")
+
